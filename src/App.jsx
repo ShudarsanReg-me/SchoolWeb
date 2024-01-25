@@ -8,6 +8,8 @@ import News from './compos/News'
 import Milestones from './compos/Milestones'
 import Focus from './compos/Focus'
 import Gallery from './compos/Gallery'
+import Keepmeupdated from './compos/Keepmeupdated'
+import FooterLinks from './compos/FooterLinks/FooterLinks'
 function App() {
 
   return (
@@ -20,6 +22,8 @@ function App() {
 		<Milestones />
 		<Focus />
 		<Gallery />
+		<Keepmeupdated />
+		<FooterLinks />
     </>
   )
 }
